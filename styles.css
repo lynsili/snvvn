@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #ff6b6b, #f94d6b);
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  padding: 20px;
+  border: 2px solid #ff6b6b;
+  border-radius: 15px;
+  background: #fff;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.heading {
+  font-size: 24px;
+  color: #ff6b6b;
+  position: relative;
+  z-index: 2;
+}
+
+.message {
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  z-index: 2;
+}
+
+.button:hover {
+  background-color: #ff4d4d;
+}
+
+.surprise {
+  display: none;
+  margin-top: 20px;
+}
+
+.surprise img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.surprise p {
+  font-size: 18px;
+  color: #ff6b6b;
+}
+
+.decorations {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.balloons {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.cake {
+  width: 150px;
+  margin-top: -20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
